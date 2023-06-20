@@ -74,3 +74,8 @@ D:\etec\ApiProdutos\ProdutoApi\obj\Debug\net7.0\refint\ProdutoApi.dll
 D:\etec\ApiProdutos\ProdutoApi\obj\Debug\net7.0\ProdutoApi.pdb
 D:\etec\ApiProdutos\ProdutoApi\obj\Debug\net7.0\ProdutoApi.genruntimeconfig.cache
 D:\etec\ApiProdutos\ProdutoApi\obj\Debug\net7.0\ref\ProdutoApi.dll
+D:\etec\ApiProdutos\ProdutoApi\bin\Debug\net7.0\publish\web.config
+D:\etec\ApiProdutos\ProdutoApi\bin\Debug\net7.0\publish\appsettings.Development.json
+D:\etec\ApiProdutos\ProdutoApi\bin\Debug\net7.0\publish\appsettings.json
+D:\etec\ApiProdutos\ProdutoApi\bin\Debug\net7.0\publish\ProdutoApi.deps.json
+D:\etec\ApiProdutos\ProdutoApi\bin\Debug\net7.0\publish\ProdutoApi.runtimeconfig.json
