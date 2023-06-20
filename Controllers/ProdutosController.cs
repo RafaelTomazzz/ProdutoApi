@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProdutoApi.Models;
 using ProdutoApi.Data;
+using System.Threading.Tasks;
 
 namespace ProdutoApi.Controllers
 {
@@ -32,6 +33,25 @@ namespace ProdutoApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            try
+            {
+                Produto a = await _context.Produtos.FirstOrDefaultAsync(aBusca => aBusca.Id == id);
+                return Ok(a);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+
+        
 
 
     }
