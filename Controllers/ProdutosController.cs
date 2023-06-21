@@ -4,6 +4,7 @@ using ProdutoApi.Models;
 using ProdutoApi.Data;
 using System.Threading.Tasks;
 
+
 namespace ProdutoApi.Controllers
 {
     [ApiController]
