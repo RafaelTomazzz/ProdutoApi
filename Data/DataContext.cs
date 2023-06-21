@@ -17,10 +17,10 @@ namespace ProdutoApi.Data
         {
             modelBuilder.Entity<Produto>().HasData
             (
-                new Produto() { Id = 1, Nome = "Produto01", Valor = 20, Validade = Convert.ToDateTime("5/12/2023")},
-                new Produto() { Id = 2, Nome = "Produto02", Valor = 30, Validade = Convert.ToDateTime("20/10/2023")},
+                new Produto() { Id = 1, Nome = "Produto01", Valor = 20, Validade = Convert.ToDateTime("12/05/2023")},
+                new Produto() { Id = 2, Nome = "Produto02", Valor = 30, Validade = Convert.ToDateTime("08/09/2023")},
                 new Produto() { Id = 3, Nome = "Produto03", Valor = 5, Validade = Convert.ToDateTime("10/10/2024")},
-                new Produto() { Id = 4, Nome = "Produto04", Valor = 50, Validade = Convert.ToDateTime("27/01/2024")}
+                new Produto() { Id = 4, Nome = "Produto04", Valor = 50, Validade = Convert.ToDateTime("01/01/2024")}
             );
         }
     }

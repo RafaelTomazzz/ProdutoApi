@@ -49,14 +49,14 @@ namespace ProdutoApi.Migrations
                         {
                             Id = 1,
                             Nome = "Produto01",
-                            Validade = new DateTime(2023, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Validade = new DateTime(2023, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Valor = 20
                         },
                         new
                         {
                             Id = 2,
                             Nome = "Produto02",
-                            Validade = new DateTime(2023, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Validade = new DateTime(2023, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Valor = 30
                         },
                         new
@@ -70,7 +70,7 @@ namespace ProdutoApi.Migrations
                         {
                             Id = 4,
                             Nome = "Produto04",
-                            Validade = new DateTime(2024, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Validade = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Valor = 50
                         });
                 });
